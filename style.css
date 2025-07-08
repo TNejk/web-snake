@@ -1,0 +1,31 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(0, 0%, 5%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div {
+  display: grid;
+  place-items: center;
+}
+
+div > *{
+  margin: 1rem;
+}
+
+button {
+  border: 3px solid hsl(0, 0%, 15%);
+  border-radius: 5px;
+  color: hsl(0, 0%, 70%);
+  background-color: hsl(0, 0%, 15%);
+  padding: 0.5rem 1rem;
+
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 30%);
+}
